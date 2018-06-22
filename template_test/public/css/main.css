@@ -1,0 +1,80 @@
+.axis text {
+    font: 10px sans-serif;
+    fill: black;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.outer-div {
+    border-radius: 7px;
+    border: 2px solid rgb(199, 199, 199);
+}
+
+.block-div {
+    height: 100%;
+    border-radius: 7px;
+}
+
+#top-div {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+#top-left-div {
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 2px;
+}
+
+#top-middle-div {
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding: 31px 0 0;
+}
+
+#top-right-div {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+#top-right-top-div {
+    width: 100%;
+    height: 50%;
+}
+
+#top-right-bottom-div {
+    top: 50%;
+    width: 100%;
+    height: 50%;
+}
+
+#bottom-div {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    height: 20%;
+}
+
+.btn-div {
+    margin: 5px;
+    line-height: 26px
+}
+
+#view2_btn {
+    height: 26px;
+    margin: -26px 0 0;
+}
+
+#view2 {
+    overflow: hidden;
+    bottom: 0px;
+}
